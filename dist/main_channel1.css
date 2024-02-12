@@ -1,0 +1,21 @@
+.channel-colored-button {
+  background-color: orange;
+  border-radius: 5px;
+}
+.channel-colored-button:hover {
+  background: orange;
+}
+
+.channel-colored-list {
+  border: 4 px solid #000;
+  background-color: orange;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+.channel-colored-list li {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=main_channel1.css.map */

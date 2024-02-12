@@ -1,0 +1,12 @@
+
+@function complete-map($theme-map, $base-map) {
+  $complete-map: $theme-map;
+
+  @each $key, $value in $base-map {
+    @if not map-has-key($complete-map, $key) {
+      $complete-map: map-merge($complete-map, ($key: $value));
+    }
+  }
+
+  @return $complete-map;
+}

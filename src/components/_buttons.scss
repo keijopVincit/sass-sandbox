@@ -1,0 +1,12 @@
+@use "../core" as *;
+
+$config: core.$config !default; //Required for workaround: https://github.com/sass/sass/issues/3008
+
+.channel-colored-button {
+  background-color: map-get($config, primary-color);
+  border-radius: map-get($config, border-radius);
+
+  &:hover {
+    background: map-get($config, secondary-color);
+  }
+}
