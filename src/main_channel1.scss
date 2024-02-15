@@ -2,3 +2,4 @@
 @use "theme_utils" as utils;
 @use "core" as core;
 @use "components" with ($config: utils.complete-map(theme.$theme-config, core.$config));
+@use "pages" with ($config: utils.complete-map(theme.$theme-config, core.$config));

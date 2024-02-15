@@ -1,4 +1,5 @@
 @use "themes/channel2/theme_config" as theme;
 @use "theme_utils" as utils;
 @use "core" as core;
-@use "components" with ($config: utils.complete-map(theme.$theme-config, core.$config))
+@use "components" with ($config: utils.complete-map(theme.$theme-config, core.$config));
+@use "pages" with ($config: utils.complete-map(theme.$theme-config, core.$config))

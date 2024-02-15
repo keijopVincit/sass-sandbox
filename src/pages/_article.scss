@@ -1,0 +1,12 @@
+@use "../core" as *;
+
+$config: core.$config !default; //Required for workaround: https://github.com/sass/sass/issues/3008
+
+.article-page {
+  color: map-get($config, not-a-themed-color);
+
+  a {
+    color: map-get($config, secondary-color);
+    padding: get-double(5px)
+  }
+}

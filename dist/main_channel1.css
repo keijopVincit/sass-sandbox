@@ -1,6 +1,5 @@
 .channel-colored-button {
   background-color: orange;
-  border-radius: 5px;
 }
 .channel-colored-button:hover {
   background: orange;
@@ -16,6 +15,22 @@
 }
 .channel-colored-list li {
   margin: 5px;
+}
+
+.article-page {
+  color: #000;
+}
+.article-page a {
+  color: orange;
+  padding: 10px;
+}
+
+.front-page {
+  color: #000;
+}
+.front-page a {
+  color: orange;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=main_channel1.css.map */
